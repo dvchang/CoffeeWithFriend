@@ -9,6 +9,19 @@
 /* Begin PBXBuildFile section */
 		A91CA24A1D7E831D0098C773 /* CWFRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91CA2491D7E831D0098C773 /* CWFRootViewController.swift */; };
 		A91CA5A81D7E85940098C773 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A91CA5A61D7E85940098C773 /* LaunchScreen.storyboard */; };
+		A91CA5C71D7E87760098C773 /* CWFDataFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91CA5C61D7E87760098C773 /* CWFDataFacade.swift */; };
+		A91CA5C91D7E89200098C773 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A91CA5C81D7E89200098C773 /* RealmSwift.framework */; };
+		A91CA5CA1D7E89200098C773 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A91CA5C81D7E89200098C773 /* RealmSwift.framework */; };
+		A91CA5CB1D7E89200098C773 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A91CA5C81D7E89200098C773 /* RealmSwift.framework */; };
+		A91CA5CD1D7E893C0098C773 /* CWFPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91CA5CC1D7E893C0098C773 /* CWFPerson.swift */; };
+		A91CA5CE1D7E893C0098C773 /* CWFPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91CA5CC1D7E893C0098C773 /* CWFPerson.swift */; };
+		A91CA5CF1D7E893C0098C773 /* CWFPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91CA5CC1D7E893C0098C773 /* CWFPerson.swift */; };
+		A91CA5D11D7E8A560098C773 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A91CA5D01D7E8A560098C773 /* Realm.framework */; };
+		A91CA5D21D7E8A560098C773 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A91CA5D01D7E8A560098C773 /* Realm.framework */; };
+		A91CA5D31D7E8A560098C773 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A91CA5D01D7E8A560098C773 /* Realm.framework */; };
+		A91CA5D51D7E8AE90098C773 /* CWFCoffeeEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91CA5D41D7E8AE90098C773 /* CWFCoffeeEvent.swift */; };
+		A91CA5D61D7E8AE90098C773 /* CWFCoffeeEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91CA5D41D7E8AE90098C773 /* CWFCoffeeEvent.swift */; };
+		A91CA5D71D7E8AE90098C773 /* CWFCoffeeEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91CA5D41D7E8AE90098C773 /* CWFCoffeeEvent.swift */; };
 		A9C4AEDB1D7E7D61001E746B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4AEDA1D7E7D61001E746B /* AppDelegate.swift */; };
 		A9C4AEE21D7E7D61001E746B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9C4AEE11D7E7D61001E746B /* Assets.xcassets */; };
 		A9C4AEF01D7E7D61001E746B /* CoffeeWithFriendTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4AEEF1D7E7D61001E746B /* CoffeeWithFriendTests.swift */; };
@@ -35,6 +48,11 @@
 /* Begin PBXFileReference section */
 		A91CA2491D7E831D0098C773 /* CWFRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CWFRootViewController.swift; path = UI/CWFRootViewController.swift; sourceTree = "<group>"; };
 		A91CA5A71D7E85940098C773 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A91CA5C61D7E87760098C773 /* CWFDataFacade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CWFDataFacade.swift; path = Model/CWFDataFacade.swift; sourceTree = "<group>"; };
+		A91CA5C81D7E89200098C773 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
+		A91CA5CC1D7E893C0098C773 /* CWFPerson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CWFPerson.swift; path = Model/CWFPerson.swift; sourceTree = "<group>"; };
+		A91CA5D01D7E8A560098C773 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		A91CA5D41D7E8AE90098C773 /* CWFCoffeeEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CWFCoffeeEvent.swift; path = Model/CWFCoffeeEvent.swift; sourceTree = "<group>"; };
 		A9C4AED71D7E7D61001E746B /* CoffeeWithFriend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeWithFriend.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9C4AEDA1D7E7D61001E746B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9C4AEE11D7E7D61001E746B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -52,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A91CA5D11D7E8A560098C773 /* Realm.framework in Frameworks */,
+				A91CA5C91D7E89200098C773 /* RealmSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +79,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A91CA5D21D7E8A560098C773 /* Realm.framework in Frameworks */,
+				A91CA5CA1D7E89200098C773 /* RealmSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +88,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A91CA5D31D7E8A560098C773 /* Realm.framework in Frameworks */,
+				A91CA5CB1D7E89200098C773 /* RealmSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A91CA5C41D7E87310098C773 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A91CA2491D7E831D0098C773 /* CWFRootViewController.swift */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		A91CA5C51D7E873C0098C773 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A91CA5C61D7E87760098C773 /* CWFDataFacade.swift */,
+				A91CA5CC1D7E893C0098C773 /* CWFPerson.swift */,
+				A91CA5D41D7E8AE90098C773 /* CWFCoffeeEvent.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		A9C4AECE1D7E7D61001E746B = {
 			isa = PBXGroup;
 			children = (
@@ -95,11 +137,14 @@
 		A9C4AED91D7E7D61001E746B /* CoffeeWithFriend */ = {
 			isa = PBXGroup;
 			children = (
+				A91CA5C81D7E89200098C773 /* RealmSwift.framework */,
+				A91CA5D01D7E8A560098C773 /* Realm.framework */,
+				A91CA5C51D7E873C0098C773 /* Model */,
+				A91CA5C41D7E87310098C773 /* UI */,
 				A91CA5A61D7E85940098C773 /* LaunchScreen.storyboard */,
 				A9C4AEDA1D7E7D61001E746B /* AppDelegate.swift */,
 				A9C4AEE11D7E7D61001E746B /* Assets.xcassets */,
 				A9C4AEE61D7E7D61001E746B /* Info.plist */,
-				A91CA2491D7E831D0098C773 /* CWFRootViewController.swift */,
 			);
 			path = CoffeeWithFriend;
 			sourceTree = "<group>";
@@ -252,8 +297,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A91CA5D51D7E8AE90098C773 /* CWFCoffeeEvent.swift in Sources */,
 				A9C4AEDB1D7E7D61001E746B /* AppDelegate.swift in Sources */,
+				A91CA5CD1D7E893C0098C773 /* CWFPerson.swift in Sources */,
 				A91CA24A1D7E831D0098C773 /* CWFRootViewController.swift in Sources */,
+				A91CA5C71D7E87760098C773 /* CWFDataFacade.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +310,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9C4AEF01D7E7D61001E746B /* CoffeeWithFriendTests.swift in Sources */,
+				A91CA5D61D7E8AE90098C773 /* CWFCoffeeEvent.swift in Sources */,
+				A91CA5CE1D7E893C0098C773 /* CWFPerson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +320,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9C4AEFB1D7E7D61001E746B /* CoffeeWithFriendUITests.swift in Sources */,
+				A91CA5D71D7E8AE90098C773 /* CWFCoffeeEvent.swift in Sources */,
+				A91CA5CF1D7E893C0098C773 /* CWFPerson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +441,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CoffeeWithFriend",
+				);
 				INFOPLIST_FILE = CoffeeWithFriend/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dvchangyuan.coffeewithfriend.CoffeeWithFriend;
@@ -400,6 +456,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CoffeeWithFriend",
+				);
 				INFOPLIST_FILE = CoffeeWithFriend/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dvchangyuan.coffeewithfriend.CoffeeWithFriend;
@@ -411,6 +471,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CoffeeWithFriend",
+				);
 				INFOPLIST_FILE = CoffeeWithFriendTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dvchangyuan.coffeewithfriend.CoffeeWithFriendTests;
@@ -423,6 +487,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CoffeeWithFriend",
+				);
 				INFOPLIST_FILE = CoffeeWithFriendTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dvchangyuan.coffeewithfriend.CoffeeWithFriendTests;
@@ -434,6 +502,10 @@
 		A9C4AF061D7E7D61001E746B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CoffeeWithFriend",
+				);
 				INFOPLIST_FILE = CoffeeWithFriendUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dvchangyuan.coffeewithfriend.CoffeeWithFriendUITests;
@@ -445,6 +517,10 @@
 		A9C4AF071D7E7D61001E746B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CoffeeWithFriend",
+				);
 				INFOPLIST_FILE = CoffeeWithFriendUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dvchangyuan.coffeewithfriend.CoffeeWithFriendUITests;
