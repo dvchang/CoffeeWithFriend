@@ -5,12 +5,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   var window: UIWindow?
 
-
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-    let controller = UIViewController()
+    let controller = CWFRootViewController()
     self.window = UIWindow()
     self.window?.rootViewController = controller
-    controller.view.backgroundColor = UIColor.redColor()
     self.window?.makeKeyAndVisible()
     self.window?.backgroundColor = UIColor.whiteColor()
     return true

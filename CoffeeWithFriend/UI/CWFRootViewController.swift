@@ -1,9 +1,8 @@
-//
-//  CWFRootViewController.swift
-//  CoffeeWithFriend
-//
-//  Created by Yuan Chang on 9/5/16.
-//  Copyright © 2016 Yuan Chang. All rights reserved.
-//
+import UIKit
 
-import Foundation
+class CWFRootViewController : UIViewController {
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    self.view.backgroundColor = UIColor.orangeColor()
+  }
+}
