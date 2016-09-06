@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1B3E66BB53916C21F6840700D5D1EC8323F53DFA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9FB1FDDBA011002795A1FF5BD3CABFA2F79E6A59" : 0,
+    "1B3E66BB53916C21F6840700D5D1EC8323F53DFA" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B6893E0B-1E24-4138-9AB4-903277020554",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9FB1FDDBA011002795A1FF5BD3CABFA2F79E6A59" : "CoffeeWithFriend\/realm-cocoa\/",
+    "1B3E66BB53916C21F6840700D5D1EC8323F53DFA" : "CoffeeWithFriend\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CoffeeWithFriend",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CoffeeWithFriend.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/dvchang\/CoffeeWithFriend.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1B3E66BB53916C21F6840700D5D1EC8323F53DFA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/realm\/realm-cocoa",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9FB1FDDBA011002795A1FF5BD3CABFA2F79E6A59"
+    }
+  ]
+}

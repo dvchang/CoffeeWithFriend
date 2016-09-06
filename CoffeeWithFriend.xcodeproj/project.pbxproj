@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		A9C4AEDB1D7E7D61001E746B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4AEDA1D7E7D61001E746B /* AppDelegate.swift */; };
-		A9C4AEDD1D7E7D61001E746B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4AEDC1D7E7D61001E746B /* ViewController.swift */; };
 		A9C4AEE01D7E7D61001E746B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9C4AEDE1D7E7D61001E746B /* Main.storyboard */; };
 		A9C4AEE21D7E7D61001E746B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9C4AEE11D7E7D61001E746B /* Assets.xcassets */; };
 		A9C4AEE51D7E7D61001E746B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9C4AEE31D7E7D61001E746B /* LaunchScreen.storyboard */; };
 		A9C4AEF01D7E7D61001E746B /* CoffeeWithFriendTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4AEEF1D7E7D61001E746B /* CoffeeWithFriendTests.swift */; };
 		A9C4AEFB1D7E7D61001E746B /* CoffeeWithFriendUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4AEFA1D7E7D61001E746B /* CoffeeWithFriendUITests.swift */; };
+		A9C4AF241D7E7F7F001E746B /* UI in Resources */ = {isa = PBXBuildFile; fileRef = A9C4AF231D7E7F7F001E746B /* UI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,12 +31,60 @@
 			remoteGlobalIDString = A9C4AED61D7E7D61001E746B;
 			remoteInfo = CoffeeWithFriend;
 		};
+		A9C4AF151D7E7F42001E746B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9C4AF081D7E7F41001E746B /* Realm.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5D659ED91BE04556006515A0;
+			remoteInfo = Realm;
+		};
+		A9C4AF171D7E7F42001E746B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9C4AF081D7E7F41001E746B /* Realm.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5DD755CF1BE056DE002800DA;
+			remoteInfo = "Realm iOS static";
+		};
+		A9C4AF191D7E7F42001E746B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9C4AF081D7E7F41001E746B /* Realm.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E8D89BA31955FC6D00CF2B9A;
+			remoteInfo = Tests;
+		};
+		A9C4AF1B1D7E7F42001E746B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9C4AF081D7E7F41001E746B /* Realm.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E856D1DF195614A400FB2FCF;
+			remoteInfo = "iOS static tests";
+		};
+		A9C4AF1D1D7E7F42001E746B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9C4AF081D7E7F41001E746B /* Realm.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3F1A5E721992EB7400F45F4C;
+			remoteInfo = TestHost;
+		};
+		A9C4AF1F1D7E7F42001E746B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9C4AF081D7E7F41001E746B /* Realm.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5D660FCC1BE98C560021E04F;
+			remoteInfo = RealmSwift;
+		};
+		A9C4AF211D7E7F42001E746B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9C4AF081D7E7F41001E746B /* Realm.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5D660FD81BE98C7C0021E04F;
+			remoteInfo = "RealmSwift Tests";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		A9C4AED71D7E7D61001E746B /* CoffeeWithFriend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeWithFriend.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9C4AEDA1D7E7D61001E746B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A9C4AEDC1D7E7D61001E746B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A9C4AEDF1D7E7D61001E746B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A9C4AEE11D7E7D61001E746B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9C4AEE41D7E7D61001E746B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +95,8 @@
 		A9C4AEF61D7E7D61001E746B /* CoffeeWithFriendUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeWithFriendUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9C4AEFA1D7E7D61001E746B /* CoffeeWithFriendUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeWithFriendUITests.swift; sourceTree = "<group>"; };
 		A9C4AEFC1D7E7D61001E746B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9C4AF081D7E7F41001E746B /* Realm.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Realm.xcodeproj; path = "realm-cocoa/Realm.xcodeproj"; sourceTree = "<group>"; };
+		A9C4AF231D7E7F7F001E746B /* UI */ = {isa = PBXFileReference; lastKnownFileType = folder; path = UI; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +127,7 @@
 		A9C4AECE1D7E7D61001E746B = {
 			isa = PBXGroup;
 			children = (
+				A9C4AF081D7E7F41001E746B /* Realm.xcodeproj */,
 				A9C4AED91D7E7D61001E746B /* CoffeeWithFriend */,
 				A9C4AEEE1D7E7D61001E746B /* CoffeeWithFriendTests */,
 				A9C4AEF91D7E7D61001E746B /* CoffeeWithFriendUITests */,
@@ -97,8 +148,8 @@
 		A9C4AED91D7E7D61001E746B /* CoffeeWithFriend */ = {
 			isa = PBXGroup;
 			children = (
+				A9C4AF231D7E7F7F001E746B /* UI */,
 				A9C4AEDA1D7E7D61001E746B /* AppDelegate.swift */,
-				A9C4AEDC1D7E7D61001E746B /* ViewController.swift */,
 				A9C4AEDE1D7E7D61001E746B /* Main.storyboard */,
 				A9C4AEE11D7E7D61001E746B /* Assets.xcassets */,
 				A9C4AEE31D7E7D61001E746B /* LaunchScreen.storyboard */,
@@ -123,6 +174,20 @@
 				A9C4AEFC1D7E7D61001E746B /* Info.plist */,
 			);
 			path = CoffeeWithFriendUITests;
+			sourceTree = "<group>";
+		};
+		A9C4AF091D7E7F41001E746B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9C4AF161D7E7F42001E746B /* Realm.framework */,
+				A9C4AF181D7E7F42001E746B /* Realm.framework */,
+				A9C4AF1A1D7E7F42001E746B /* Tests.xctest */,
+				A9C4AF1C1D7E7F42001E746B /* iOS static tests.xctest */,
+				A9C4AF1E1D7E7F42001E746B /* TestHost.app */,
+				A9C4AF201D7E7F42001E746B /* RealmSwift.framework */,
+				A9C4AF221D7E7F42001E746B /* RealmSwift Tests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +280,12 @@
 			mainGroup = A9C4AECE1D7E7D61001E746B;
 			productRefGroup = A9C4AED81D7E7D61001E746B /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A9C4AF091D7E7F41001E746B /* Products */;
+					ProjectRef = A9C4AF081D7E7F41001E746B /* Realm.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				A9C4AED61D7E7D61001E746B /* CoffeeWithFriend */,
@@ -224,11 +295,64 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		A9C4AF161D7E7F42001E746B /* Realm.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Realm.framework;
+			remoteRef = A9C4AF151D7E7F42001E746B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A9C4AF181D7E7F42001E746B /* Realm.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework.static;
+			path = Realm.framework;
+			remoteRef = A9C4AF171D7E7F42001E746B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A9C4AF1A1D7E7F42001E746B /* Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Tests.xctest;
+			remoteRef = A9C4AF191D7E7F42001E746B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A9C4AF1C1D7E7F42001E746B /* iOS static tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "iOS static tests.xctest";
+			remoteRef = A9C4AF1B1D7E7F42001E746B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A9C4AF1E1D7E7F42001E746B /* TestHost.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = TestHost.app;
+			remoteRef = A9C4AF1D1D7E7F42001E746B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A9C4AF201D7E7F42001E746B /* RealmSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RealmSwift.framework;
+			remoteRef = A9C4AF1F1D7E7F42001E746B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A9C4AF221D7E7F42001E746B /* RealmSwift Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "RealmSwift Tests.xctest";
+			remoteRef = A9C4AF211D7E7F42001E746B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		A9C4AED51D7E7D61001E746B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9C4AF241D7E7F7F001E746B /* UI in Resources */,
 				A9C4AEE51D7E7D61001E746B /* LaunchScreen.storyboard in Resources */,
 				A9C4AEE21D7E7D61001E746B /* Assets.xcassets in Resources */,
 				A9C4AEE01D7E7D61001E746B /* Main.storyboard in Resources */,
@@ -256,7 +380,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9C4AEDD1D7E7D61001E746B /* ViewController.swift in Sources */,
 				A9C4AEDB1D7E7D61001E746B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
