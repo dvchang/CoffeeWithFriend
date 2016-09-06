@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  CoffeeWithFriend
-//
-//  Created by Yuan Chang on 9/5/16.
-//  Copyright © 2016 Yuan Chang. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
@@ -15,7 +7,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-    // Override point for customization after application launch.
+    let controller = UIViewController()
+    self.window = UIWindow()
+    self.window?.rootViewController = controller
+    controller.view.backgroundColor = UIColor.redColor()
+    self.window?.makeKeyAndVisible()
+    self.window?.backgroundColor = UIColor.whiteColor()
     return true
   }
 
@@ -40,7 +37,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   func applicationWillTerminate(application: UIApplication) {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
   }
-
 
 }
 
